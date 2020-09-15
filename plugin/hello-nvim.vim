@@ -1,4 +1,4 @@
-" plugin/whid.vim
+" plugin/hello-nvim.vim
 if exists('g:loaded_hellonvim') | finish | endif
 
 let s:save_cpo = &cpo

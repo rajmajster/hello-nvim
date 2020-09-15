@@ -1,6 +1,7 @@
 -- hello-nvim.lua
 local function printHelloNvim()
-		print("hello nvim")
+		print(vim.api.nvim_win_get_width(0))
+		print("hello nvim! aaa")
 end
 
 return {
